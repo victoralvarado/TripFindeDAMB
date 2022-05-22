@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.25" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.3038949275362319" />
         <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
       </map>
     </option>
