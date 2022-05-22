@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coverfull"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coverfull" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/margentitulo"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#25565959"
+            android:text="TripFinde"
+            android:textAlignment="center"
+            android:textColor="#E05012"
+            android:textSize="@dimen/titulo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#25565959"
+            android:text="Una forma nueva de explorar"
+            android:textAlignment="center"
+            android:textColor="#E05012"
+            android:textSize="@dimen/descripcion"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/margenboton"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="265dp"
+            android:layout_height="64dp"
+            android:backgroundTint="#DC7633"
+            android:text="Iniciar Sesión"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="11dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="265dp"
+            android:layout_height="64dp"
+            android:backgroundTint="#229954"
+            android:text="Crear Cuenta"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="11dp" />
+    </LinearLayout>
+</FrameLayout>
