@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/black"
-        android:alpha="0.1"/>
+        android:alpha="0.01"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,9 +32,9 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TripFinde"
+            android:text="TRIPFINDE"
             android:textAlignment="center"
-            android:textColor="#AA3706"
+            android:textColor="#BD3B04"
             android:textSize="@dimen/titulo"
             android:textStyle="bold" />
 
@@ -44,7 +44,7 @@
             android:layout_height="51dp"
             android:text="Una forma nueva de explorar"
             android:textAlignment="center"
-            android:textColor="#AA3706"
+            android:textColor="#BD3B04"
             android:textSize="@dimen/descripcion"
             android:textStyle="bold" />
     </LinearLayout>
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/btnCrearCuentaCC"
+            android:id="@+id/btnModificarCuenta"
             android:layout_width="265dp"
             android:layout_height="64dp"
             android:backgroundTint="#DC7633"

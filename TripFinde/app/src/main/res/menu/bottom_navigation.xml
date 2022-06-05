@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/inicioFragment"
+        android:icon="@drawable/ic_twotone_home_24"
+        android:title="Inicio"/>
+    <item android:id="@+id/departamentosFragment"
+        android:icon="@drawable/ic_twotone_map_24"
+        android:title="Departamentos"/>
+    <item android:id="@+id/buscarFragment"
+        android:icon="@drawable/ic_twotone_search_24"
+        android:title="Buscar"/>
+    <item android:id="@+id/opcionesFragment"
+        android:icon="@drawable/ic_twotone_menu_24"
+        android:title="Opciones"/>
+</menu>

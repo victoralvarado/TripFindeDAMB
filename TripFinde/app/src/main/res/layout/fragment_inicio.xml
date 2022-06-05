@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioFragment"
+    android:background="#e7dddd"
+    android:id="@+id/frameLayout2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/tripfinde" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Tipos de Lugar"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMontania"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#d43806"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Montaña"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="11dp"
+                    app:icon="@drawable/ic_round_landscape_30"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    android:id="@+id/btnPlaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#19ac92"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Playa"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="11dp"
+                    app:icon="@drawable/ic_round_beach_access_30"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    android:id="@+id/btnLago"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#265cad"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Lago"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="11dp"
+                    app:icon="@drawable/ic_round_waves_30"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    android:id="@+id/btnHistorico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#6b3ca6"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Histórico"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="11dp"
+                    app:icon="@drawable/ic_round_castle_30"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    android:id="@+id/btnOtros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#b11515"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Otros"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="11dp"
+                    app:icon="@drawable/ic_round_location_searching_30"
+                    app:iconGravity="textTop" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvLugaresF"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

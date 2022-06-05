@@ -27,9 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="5dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="5dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +62,7 @@
             app:boxBackgroundMode="outline">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtCorreoCC"
+                android:id="@+id/txtCorreoIS"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elegantTextHeight="true"
@@ -83,18 +81,18 @@
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtClaveCC"
+                android:id="@+id/txtClaveIS"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elegantTextHeight="true"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="clip_horizontal"
                 android:hint="Clave"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btnCrearCuentaCC"
+            android:id="@+id/btnIniciarSesion"
             android:layout_width="265dp"
             android:layout_height="64dp"
             android:layout_gravity="center_vertical|center_horizontal"

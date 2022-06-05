@@ -3,9 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/drawable/corner_radius.xml" value="0.2155" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/drawable/ic_recurso_14tripfindelogo.xml" value="0.212" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_app.xml" value="0.25" />
         <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.25" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_gestion_cuenta.xml" value="0.25" />
         <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.3038949275362319" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_lugar.xml" value="0.25" />
         <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_presentacion.xml" value="0.18414387031408308" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/activity_tipo_lugar.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/departamentos.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/fragment_buscar.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/fragment_departamentos.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/fragment_inicio.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/fragment_opciones.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/imageneslugar.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/layout/lugares.xml" value="0.34692028985507245" />
+        <entry key="..\:/ING/CICLO V/ProyectoDAMBTripFinde/TripFindeDAMB/TripFinde/app/src/main/res/menu/bottom_navigation.xml" value="0.33" />
       </map>
     </option>
   </component>
